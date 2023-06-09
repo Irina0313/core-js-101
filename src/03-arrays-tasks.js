@@ -478,14 +478,8 @@ function toStringList(arr) {
  *      { country: 'Russia',  city: 'Saint Petersburg' }
  *    ]
  */
-function sortCitiesArray(arr) {
-  // throw new Error('Not implemented');
-  function sorter(item1, item2) {
-    if (item1.country !== item2.country) {
-      return item1.country !== item2.country
-    }
-  }
-  arr.sort(sorter(a, b))
+function sortCitiesArray(/* arr */) {
+  throw new Error('Not implemented');
 }
 
 /**

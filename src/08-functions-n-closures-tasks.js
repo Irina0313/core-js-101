@@ -224,7 +224,6 @@ function getIdGeneratorFunction(startFrom) {
     } else {
       res += 1;
     }
-
     return res;
   };
 }
